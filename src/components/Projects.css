@@ -1,0 +1,72 @@
+.projects-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 84vw;
+}
+
+.grow {
+    padding: 5px;
+    height: 100px;
+    width: 22%;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    transition: all 1s ease-in-out;
+}
+
+.grow p {
+    opacity: 0;
+    background-color: rgba(239, 237, 231, 0.5);
+    border-radius: 5px;
+}
+
+.grow:hover {
+    height: 75vh;
+    width: 75vw;
+}
+
+.grow:hover p,
+.grow:hover .project_links a {
+    opacity: 1;
+    padding: 5px;
+    margin: 1rem;
+    transition: opacity 1s ease;
+}
+
+.projects-content_column {
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    color: #f6f4efff;
+    background-color:rgba(37, 38, 39, 0.533);
+    overflow: scroll;
+}
+
+.project_links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: auto;
+}
+
+.project_links a {
+    opacity: 0;
+    padding: 5px;
+    background-color: rgba(239, 237, 231, 0.7);
+    color: #252627ff;
+    font-weight: 600;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.projects-content_column:nth-of-type(1) {
+    border-radius: 8px 0 0 8px;
+}
+
+.projects-content_column:nth-of-type(4) {
+    border-radius: 0 8px 8px 0;
+}
+

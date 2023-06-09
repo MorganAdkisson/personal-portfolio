@@ -1,0 +1,22 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.section-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #252627ff;
+    padding: 50px;
+}
+
+.section-container h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}

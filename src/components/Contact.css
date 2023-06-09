@@ -1,0 +1,38 @@
+.contact-form_container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 3em;
+    width: 90vw;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form input, textarea, button {
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+
+.contact-form input, textarea {
+    width: 75%;
+}
+
+.contact-form button {
+    padding: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: #b4673eff;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+}
+
+.contact-form button:hover {
+    opacity: .75;
+}
